@@ -1,4 +1,4 @@
-**Mod 2 Project Submission Please fill out:**
+**Mod 2 Project Submission:**
 
 * Student name: John Naujoks & Laura E Shummon Maass
 * Student pace: Full Time
