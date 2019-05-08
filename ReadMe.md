@@ -1,9 +1,9 @@
-Mod 2 Project Submission Please fill out:
+**Mod 2 Project Submission Please fill out:**
 
-Student name: John Naujoks & Laura E Shummon Maass
-Student pace: Full Time
-Scheduled project review date/time: 5/10/2019
-Instructor name: Miles Erickson, Greg Damico
+* Student name: John Naujoks & Laura E Shummon Maass
+* Student pace: Full Time
+* Scheduled project review date/time: 5/10/2019
+* Instructor name: Miles Erickson, Greg Damico
 
 
 ## Project Overview
