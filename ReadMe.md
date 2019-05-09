@@ -72,6 +72,6 @@
 * We found trends amoung genres in the 500 best reviewed albums, but no trends emerged in the worst reviewed.
 * In the 500 best reviewed albums, pop/r&b and rap had p-values of 0.0013 and 0.026 respectively. Rock had a p-value of 0.0546
 * Based on the 3 lowest p-value genres, we reject the null for pop & rap, but not for rock (since it doesn't meet our 0.05 cutoff)
-    * Pop & Rap have a statistically significant difference in showing up in the top 500 album reviews list. 
+    * Pop & Rap genres in the top 500 albums have a statistically significant difference in review score compared to other genres.
 
 
