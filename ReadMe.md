@@ -18,51 +18,16 @@
 
 * **Findings:**
 * The distribution of ratings for both pop & electronic lined up very closely: **(insert image here)**
-* The sample means were very close (less than a 0.16 difference) (# refers to rating)
+* The sample means were very close (less than a 0.16 difference in avg rating)
 * And the t-stat was below 0.37  (-0.3642)
 * The p-value came to 0.7157 which far exceeded our threshold of 0.05
 * We also did a bootstrap test and found:
     * Almost identical standard deviations for both samples
     * Almost identical 2.5 and 97.5 mean percentiles for both samples
 * With all of the evidence above we accepted our null hypothesis that there is no statistically significant difference between the rating of pop/R&B and electronic albums.
-**consider duplicating analysis for other genres**
 
 
-### Hypothesis Test #2: Self-Released vs Label Ratings
-
-* **Null:** There is no statistically significant difference between self-released album ratings and all others. 
-* **Alternative:** Self-released albums have a statistically significant decrease in ratings compared to other labels.
-
-* **Findings:**
-* The distribution of ratings between self-released albums and albums with labels is not quite as closely lined up as pop and electro ratings, however they still overlap quite well: **(insert image here)**
-* The sample means had a difference of 0.09 (# refers to rating)
-* However, the t-stat was -1.44 **talk about the cutoff for our sample size and 0.05**
-* Our p-value was also much lower at 0.1499. This still exceeds our threshold of 0.05
-* With the evidence above, we accepted our null hypothesis that there is no statistically significant difference between self-released album ratings and albums with labels. 
-
-### Hypothesis Test #3: Top Reviewer Ratings
-
-* **Null Hypothesis:** There is no statistical difference between the top album reviewers and all others.
-* **Alternative:** Top album reviewers have a statistically significant different in their review scores. 
-
-* **Findings:**
-* Viewed distributions of the top 5 reviewers (in terms of volume): **(insert image here)**
-* As you can see 3 of the reviewers have very similar distributions, 2 stand out (Ian-orange and Mark-purple)
-* Compared Ian to Joe AND compared Mark to Joe:
-    * Ian to Joe:
-        * Difference in means = 0.9
-        * T-stat = 10.66
-        * P-value = 0.000...3936
-        * With the evidence above we rejected our null hypothesis and accept the alternative between 2 of the 5 top reviewers
-    * Mark to Joe:
-        * Difference in means = -0.46
-        * T-stat = -4.92
-        * P-value = 0.000...1075
-        * With the evidence above we rejected our null hypothesis and accept the alternative between 2 of the 5 top reviewers
-        * Note: Mark is an executive editor which may be the reason that his reviews are, on average, so much higher than others.
-            * He may be handed albums from popular artists more often than other reviewers. 
-
-### Hypothesis Test #4: Album Genres with Best and Worst Reviews 
+### Hypothesis Test #2: Album Genres with Best and Worst Reviews 
 
 * **Null:** In sampling the 500 worst and 500 best reviewed albums, there is no statistically significant difference in the genres each represents with regards to score. 
 * **Alternative:** The 500 worst reviewed and 500 best reviewed albums have a statistically significant difference in the genres they have. 
@@ -75,3 +40,28 @@
     * Pop & Rap genres in the top 500 albums have a statistically significant difference in review score compared to other genres.
 
 
+### Hypothesis Test #3: Top Reviewer Ratings
+
+* **Null Hypothesis:** There is no statistical difference between the top album reviewers and all others.
+* **Alternative:** Top album reviewers have a statistically significant different in their review scores. 
+
+* **Findings:**
+* Viewed distributions of the top 5 reviewers (in terms of volume) for pop and electronic: **(insert image here)**
+* 1 stood out for both genres: Ian
+* Mark stood out for Rock, but only had a slight differnce for Pop and Electronic.
+* Compared Ian to Joe AND compared Mark to Joe:
+     * Ian had a statistically significant difference from Joe
+     * Mark had a slight difference, but it was not statistically significant
+
+
+### Hypothesis Test #4: Self-Released vs Label Ratings
+
+* **Null:** There is no statistically significant difference between self-released album ratings and all others. 
+* **Alternative:** Self-released albums have a statistically significant decrease in ratings compared to other labels.
+
+* **Findings:**
+* The distribution of ratings between self-released albums and albums with labels is not quite as closely lined up as pop and electro ratings, however they still overlap quite well: **(insert image here)**
+* The sample means had a difference in rating of 0.09 
+* However, the t-stat was -1.44 
+* Our p-value was also much lower at 0.1499. This still exceeds our threshold of 0.05
+* With the evidence above, we accepted our null hypothesis that there is no statistically significant difference between self-released album ratings and albums with labels. 
