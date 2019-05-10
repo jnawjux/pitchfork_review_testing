@@ -6,8 +6,9 @@
 * Instructor name: Miles Erickson, Greg Damico
 
 * [Complete testing and workflow (Jupyter Notebook)](Music_Index.ipynb)
-* [Custom functions created](pitchfork_functions.py)
+* [Custom functions created (Python)](pitchfork_functions.py)
 * [Scraping Process (Jupyter Notebook)](pitchfork_scrape.ipynb)
+* [Presentation (Google Slides)](https://docs.google.com/presentation/d/1nQlVcRtLkopujbedojTzSGsPWeMfU-rk8DdmdldPX6E/edit?usp=sharing)
 
 ## Project Overview
 * The data set is based on Pitchfork review data. 
