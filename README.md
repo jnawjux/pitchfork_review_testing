@@ -21,7 +21,7 @@
 
 * **Findings:**
 * The distribution of ratings for both Pop & Electronic lined up very closely: 
-![alt text](images/PopVsElectronic.png "Pop Electronic Chart")
+![alt text](images/pop_elec.png "Pop Electronic Chart")
 * The sample means were very close (less than a 0.16 difference in avg rating)
 * And the t-stat was below 0.37  (-0.3642)
 * The p-value came to 0.7157 which far exceeded our threshold of 0.05
