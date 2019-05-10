@@ -52,7 +52,7 @@
 * **Findings:**
 * Viewed distributions of the top 5 reviewers (in terms of volume) for pop and electronic: 
 ![alt text](images/ian_cohen.png "Ian")
-![alt text](images/joe_tangari.png "Joe")
+![alt text](images/joe_tangari_v_all.png "Joe")
 * 1 stood out for both genres: Ian
 * Mark stood out for Rock, but only had a slight differnce for Pop and Electronic.
 * Compared Ian to Joe AND compared Mark to Joe:
