@@ -11,20 +11,21 @@
 * The goal of the project is to answer 4 hypothesis statements about the data. 
 
 
-### Hypothesis Test #1: Pop vs Electro Ratings
+### Hypothesis Test #1: Pop/R&B vs Electronic album Ratings
 
-* **Null:** There is no statistically significant difference between the reviews for pop/R&B albums and electronic music albums.
-* **Alternative:** The reviews for pop/R&B albums and electronic albums have a statistically significant difference between how they are reviewed, either positively or negatively.
+* **Null:** There is no statistically significant difference between the reviews for Pop/R&B albums and Electronic music albums.
+* **Alternative:** The reviews for Pop/R&B albums and Electronic albums have a statistically significant difference between how they are reviewed, either positively or negatively.
 
 * **Findings:**
-* The distribution of ratings for both pop & electronic lined up very closely: **(insert image here)**
+* The distribution of ratings for both Pop & Electronic lined up very closely: 
+![alt text](PopVsElectronic.png "Pop Electronic Chart")
 * The sample means were very close (less than a 0.16 difference in avg rating)
 * And the t-stat was below 0.37  (-0.3642)
 * The p-value came to 0.7157 which far exceeded our threshold of 0.05
 * We also did a bootstrap test and found:
     * Almost identical standard deviations for both samples
     * Almost identical 2.5 and 97.5 mean percentiles for both samples
-* With all of the evidence above we accepted our null hypothesis that there is no statistically significant difference between the rating of pop/R&B and electronic albums.
+* With all of the evidence above we accepted our null hypothesis that there is no statistically significant difference between the rating of Pop/R&B and Electronic albums.
 
 
 ### Hypothesis Test #2: Album Genres with Best and Worst Reviews 
@@ -46,7 +47,8 @@
 * **Alternative:** Top album reviewers have a statistically significant different in their review scores. 
 
 * **Findings:**
-* Viewed distributions of the top 5 reviewers (in terms of volume) for pop and electronic: **(insert image here)**
+* Viewed distributions of the top 5 reviewers (in terms of volume) for pop and electronic: 
+**(insert image here)**
 * 1 stood out for both genres: Ian
 * Mark stood out for Rock, but only had a slight differnce for Pop and Electronic.
 * Compared Ian to Joe AND compared Mark to Joe:
@@ -60,7 +62,9 @@
 * **Alternative:** Self-released albums have a statistically significant decrease in ratings compared to other labels.
 
 * **Findings:**
-* The distribution of ratings between self-released albums and albums with labels is not quite as closely lined up as pop and electro ratings, however they still overlap quite well: **(insert image here)**
+* The distribution of ratings between self-released albums and albums with labels is not quite as closely lined up as pop and electro ratings, however they still overlap quite well: 
+![alt text](PopTop5.jpg "Pop Electronic Chart")
+![alt text](ElectronicTop5.jpg "Pop Electronic Chart")
 * The sample means had a difference in rating of 0.09 
 * However, the t-stat was -1.44 
 * Our p-value was also much lower at 0.1499. This still exceeds our threshold of 0.05
