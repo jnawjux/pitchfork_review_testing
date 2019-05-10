@@ -48,7 +48,8 @@
 
 * **Findings:**
 * Viewed distributions of the top 5 reviewers (in terms of volume) for pop and electronic: 
-**(insert image here)**
+![alt text](PopTop5.jpg "Pop Electronic Chart")
+![alt text](ElectronicTop5.jpg "Pop Electronic Chart")
 * 1 stood out for both genres: Ian
 * Mark stood out for Rock, but only had a slight differnce for Pop and Electronic.
 * Compared Ian to Joe AND compared Mark to Joe:
@@ -63,8 +64,6 @@
 
 * **Findings:**
 * The distribution of ratings between self-released albums and albums with labels is not quite as closely lined up as pop and electro ratings, however they still overlap quite well: 
-![alt text](PopTop5.jpg "Pop Electronic Chart")
-![alt text](ElectronicTop5.jpg "Pop Electronic Chart")
 * The sample means had a difference in rating of 0.09 
 * However, the t-stat was -1.44 
 * Our p-value was also much lower at 0.1499. This still exceeds our threshold of 0.05
