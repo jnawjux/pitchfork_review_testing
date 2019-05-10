@@ -5,6 +5,9 @@
 * Scheduled project review date/time: 5/10/2019
 * Instructor name: Miles Erickson, Greg Damico
 
+* [Complete testing and workflow (Jupyter Notebook)](Music_Index.ipynb)
+* [Custom functions created](pitchfork_functions.py)
+* [Scraping Process (Jupyter Notebook)](pitchfork_scrape.ipynb)
 
 ## Project Overview
 * The data set is based on Pitchfork review data. 
