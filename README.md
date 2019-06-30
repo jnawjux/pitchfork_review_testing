@@ -1,19 +1,14 @@
-**Mod 2 Project Submission:**
+# Pitchfork review analysis
 
-* Student name: John Naujoks & Laura E Shummon Maass
-* Student pace: Full Time
-* Scheduled project review date/time: 5/10/2019
-* Instructor name: Miles Erickson, Greg Damico
+Project w/ [Laura E Shummon Maass](https://github.com/Laura-ShummonMaass)
 
 * [Complete testing and workflow (Jupyter Notebook)](Music_Index.ipynb)
 * [Custom functions created (Python)](pitchfork_functions.py)
 * [Scraping Process (Jupyter Notebook)](pitchfork_scrape.ipynb)
 * [Presentation (Google Slides)](https://docs.google.com/presentation/d/1nQlVcRtLkopujbedojTzSGsPWeMfU-rk8DdmdldPX6E/edit?usp=sharing)
 
-## Project Overview
-* The data set is based on Pitchfork review data. 
-* The goal of the project is to answer 4 hypothesis statements about the data. 
-
+## Overview
+* Using a dataset of reviews from Pitchfork, our goal was to answer 4 hypothesis statements about the data to provide deeper analysis of how a hypothetical artist could approach how the particular categorization and reviewer may effect their score.
 
 ### Hypothesis Test #1: Pop/R&B vs Electronic album Ratings
 
